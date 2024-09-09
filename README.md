@@ -24,7 +24,7 @@ export REPO_PATH="/ssd/dockers/calibration/OA-LICalib"
 docker run -it --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --volume="$REPO_PATH:/root/catkin_oa_calib/src/OA-LICalib" calib:v1 bash
 
 cd catkin_oa_calib/
-catkin_make -DCATKIN_WHITELIST_PACKAGES=""
+catkin_make -DCATKIN_WHITELIST_PACKAGES="" -j4
 
 # install your environment and launch calibration tool
 source ./devel/setup.bash
