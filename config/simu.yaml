@@ -12,12 +12,12 @@ map_downsample_size: 0.25
 
 knot_distance: 0.02
 
-use_gui: false
+use_gui: true
 
 # 当 segment_num = 1时，即用一段数据标定
 segment_num: 1
 selected_segment:
-  - {start_time: 0, end_time: 7, path_bag: /home/ha/catkin_oa_calib/src/OA-LICalib/data/bag/simu_bag.bag}
+  - {start_time: 0, end_time: 7, path_bag: /root/catkin_oa_calib/src/OA-LICalib/data/bag/simu_bag.bag}
 
 
 # If you select false, it calculate initial rotations.

@@ -18,7 +18,7 @@ use_gui: false
 # 当 segment_num = 1时，即用一段数据标定
 segment_num: 1
 selected_segment:
-  - {start_time: 0, end_time: 243, path_bag: /root/catkin_oa_calib/src/OA-LICalib/data/my_bags/08_22_2024/1/vlp16icmspanhwsync.bag}
+  - {start_time: 0, end_time: 194, path_bag: /root/catkin_oa_calib/src/OA-LICalib/data/my_bags/08_28_2024/5/vlp16icmspanhwsync.bag}
                                                                                                                                 
 # If you select false, it calculate initial rotations.
 # If you know the approximate conversion between the sensors, set true.
