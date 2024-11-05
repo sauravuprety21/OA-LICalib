@@ -15,3 +15,6 @@ CMakeLists.txt.user
 simu_bag/
 
 launch/.vscode/
+
+*.csv
+*.txt
